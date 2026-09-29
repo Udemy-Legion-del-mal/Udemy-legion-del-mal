@@ -1,4 +1,6 @@
-# 🦹‍♂️ La Legión del Mal
+# 🦹‍♂️ La Legión del Mal!!!!!
+
+### Es un grupo dedicado a aprender GIT + GITHUB
 
 ![Estático](https://img.shields.io/badge/Legion--Del--Mal--Última--Version-Activa)
 
