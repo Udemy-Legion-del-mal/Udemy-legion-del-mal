@@ -7,3 +7,8 @@
 ## Enemigos
 x.x.x.x.x.x..x
 .xx.x.x.xx.x
+
+## Familiares
+
+.x.x.xx.x.x.x
+.xx.
