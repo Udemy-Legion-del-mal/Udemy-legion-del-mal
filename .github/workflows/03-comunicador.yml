@@ -22,6 +22,17 @@ on:
             required: true
             default: "La misión fue un éxito"
 
+        cow_character:
+            description: "Personaje"
+            required: true
+            type: choice
+            options:
+                - eyes
+                - ghostbuster
+                - fox
+                - dragon
+                - king
+
         prioridad:
             description: "Nivel de prioridad"
             required: true
@@ -39,7 +50,6 @@ jobs:
       - name: Instalar el transmisor de la legión
         run: sudo apt-get install -y cowsay
 
-
       - name: Imprimir inputs
         run: |
             echo "======================"
@@ -51,5 +61,5 @@ jobs:
             echo "Mensaje"
             cowsay -f eyes "${{ inputs.mensaje }}"
             echo ""
-            echo "--- ${{ inputs.villano  }}"
+            echo "--- ${{ inputs.villano }}"
             echo "..."
